@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "pre-commit": {
+        "fix",
+        "lint"
+    },
+    "devDependencies": {
+        "babel-eslint": "^8.0.1",
+        "eslint": "^4.9.0",
+        "eslint-plugin-html": "^3.2.2",
+        "pre-commit": "^1.2.2"
+    }
+}
